@@ -1,10 +1,10 @@
 [
   {
     "id":"1",
-    "title":"Registration",
+    "title":"Credenciamento",
     "time":{
-      "start":"9:00",
-      "finish":"10:00"
+      "start":"8:00",
+      "finish":"9:00"
     },
     "type":"general",
     "room":"",
@@ -12,69 +12,190 @@
   },
   {
     "id":"2",
-    "title":"Talk 1",
+    "title":"Evolução das animações na web",
     "time":{
-      "start":"10:30",
-      "finish":"11:30"
+      "start":"9:00",
+      "finish":"9:45"
     },
     "type":"talk",
     "speakers":[
       {
-        "name":"Speaker Example 1",
-        "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
+        "name":"Maurício 'Maujor' Samy Silva",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/maujor.jpg"
       }
     ],
-    "background_img":"http://devevents.github.io/conf-app-boilerplate/static/img/talks/talk.png",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "room":"Auditorium 1",
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/maujor.jpg",
+    "description":"A evolução das animações na web e nos mostra as modernas técnicas CSS3 para animações.",
+    "room":"Auditório",
     "date":"day1"
   },
   {
     "id":"3",
-    "title":"Close",
+    "title":"Coffee-break",
+    "time":{
+      "start":"9:45",
+      "finish":"10:15"
+    },
+    "type":"general",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"4",
+    "title":"Throttle & Debounce Patterns in web apps",
+    "time":{
+      "start":"10:15",
+      "finish":"11:00"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Almir Filho",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/almir-filho.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/almir-filho.jpg",
+    "description":"Serão abordados os padrões Throttle e Debounce para controle de execução de código JavaScript em uma página web. Onde, quando, e por que utilizá-los? Eles resolvem problemas que podem comprometer o desempenho de uma aplicação web inteira.",
+    "room":"Auditório",
+    "date":"day1"
+  },
+  {
+    "id":"5",
+    "title":"HTTP parte 2",
+    "time":{
+      "start":"11:00",
+      "finish":"12:00"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Pedro Araujo",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/pedro.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/pedro.jpg",
+    "description":"HTTP2 vai mudar a maneira de como devemos desenvolver websites. Vamos entender melhor quais são essas mudanças.",
+    "date":"day1"
+  },
+  {
+    "id":"6",
+    "title":"Almoço",
+    "time":{
+      "start":"12:00",
+      "finish":"14:00"
+    },
+    "type":"general",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"7",
+    "title":"Sua web app não precisa ser necessariamente mais rápida, e sim parecer que é!",
+    "time":{
+      "start":"14:00",
+      "finish":"14:45"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Alexandre Magno",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/alexandre.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/alexandre.jpg",
+    "description":"O que você faz para otimizar teu front-end? Já aprendemos várias técnicas, como compactação, minificar javascript, dentre várias outras disseminadas bastante na comunidade, mas esquecemos que, no mundo do cliente, onde no fim das contas o que importa é a sensação do usuário de rapidez e fluidez. Nesta palestra irei mostrar práticas de design e interações no front-end para que sua aplicação pareça ser mais rápida e assim dá uma melhor experiência de uso do seu site ou app apenas com soluções de design.",
+    "date":"day1"
+  }, 
+  {
+    "id":"8",
+    "title":"Bootstrap: The right way",
+    "time":{
+      "start":"14:45",
+      "finish":"15:30"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Luiz Tiago Oliveira",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg",
+    "description":"Com os adventos do mobile first, junto com o crescimento dos planos pré-pago das operadoras brasileiras, desenvolver uma aplicação inovadora e pecar na performance front-end não é a melhor solução. Serão abordados alguns pontos de boas práticas, bem como a utilização de mixins e extends, sem a importação de todo o código do Bootstrap.",
+    "date":"day1"
+  },
+  {
+    "id":"9",
+    "title":"Aumentando a produtividade e qualidade no desenvolvimento web com Firefox Developer Tools",
+    "time":{
+      "start":"15:30",
+      "finish":"16:00"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Guilherme Farias",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/guilherme.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg",
+    "description":"As tecnologias client-side evoluíram de forma absurda nos últimos anos e novas ferramentas surgiram para ajudar ainda mais a vida dos desenvolvedores. Nesta palestra será apresentado funcionalidades incríveis do Firefox Developer Tools, que é ideal para quem se interessa por produtividade e qualidade no desenvolvimento de aplicações web.",
+    "date":"day1"
+  },
+  {
+    "id":"10",
+    "title":"Coffee-break",
+    "time":{
+      "start":"16:00",
+      "finish":"16:30"
+    },
+    "type":"general",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"11",
+    "title":"Ionic Rocks!",
+    "time":{
+      "start":"16:30",
+      "finish":"17:15"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Vitor Alencar",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/vitor.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/vitor.jpg",
+    "description":"",
+    "date":"day1"
+  },
+  {
+    "id":"12",
+    "title":"noBackend e Offline First: focando em criar experiências",
+    "time":{
+      "start":"17:15",
+      "finish":"18:00"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Joselito Junior",
+        "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/joselito.jpg"
+      }
+    ],
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/joselito.jpg",
+    "description":"Soluções na nuvem como o Hoodie, Parse e o Firebase estão permitindo que desenvolvedores criem aplicações com o mínimo de conhecimento sobre o Backend. Conheça mais sobre o noBackend e offline first e entenda que mais que uma funcionalidade, eles sao uma filosofia completamente diferente de desenvolvimento.",
+    "date":"day1"
+  },
+  {
+    "id":"13",
+    "title":"Encerramento",
     "time":{
       "start":"18:00"
     },
     "type":"general",
     "date":"day1"
-  },
-  {
-    "id":"4",
-    "title":"Breakfast",
-    "time":{
-      "start":"9:00",
-      "finish":"10:00"
-    },
-    "type":"general",
-    "room":"",
-    "date":"day2"
-  },
-  {
-    "id":"5",
-    "title":"Talk 2",
-    "time":{
-      "start":"10:30",
-      "finish":"11:30"
-    },
-    "type":"lightningtalk",
-    "speakers":[
-      {
-        "name":"Speaker Example 2",
-        "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
-      }
-    ],
-    "background_img":"http://devevents.github.io/conf-app-boilerplate/static/img/talks/talk.png",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "room":"Small Auditorium",
-    "date":"day2"
-  },
-  {
-    "id":"6",
-    "title":"Close",
-    "time":{
-      "start":"18:00"
-    },
-    "type":"general",
-    "date":"day2"
   }
 ]
