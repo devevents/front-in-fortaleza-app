@@ -5,7 +5,7 @@ angular.module('confboilerplate.about.services')
   this.get = function() {
     var dfd = $q.defer();
 
-    $http.get('http://devevents.github.io/conf-app-boilerplate/data/about.json')
+    $http.get('http://devevents.github.io/front-in-fortaleza-app/data/about.json')
     .success(function(data) {
       dfd.resolve(data);
     })
