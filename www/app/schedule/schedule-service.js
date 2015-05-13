@@ -5,7 +5,7 @@ angular.module('confboilerplate.schedule.services')
   this.get = function() {
     var dfd = $q.defer();
 
-    $http.get('http://devevents.github.io/conf-app-boilerplate/data/schedule.json')
+    $http.get('http://devevents.github.io/front-in-fortaleza-app/data/schedule.json')
     .success(function(data) {
 
       var day1 = _.filter(data, function(attraction){ return attraction.date =="day1" }),
@@ -26,7 +26,7 @@ angular.module('confboilerplate.schedule.services')
   this.getAttraction = function(attractionId){
     var dfd = $q.defer();
 
-    $http.get('http://devevents.github.io/conf-app-boilerplate/data/schedule.json')
+    $http.get('http://devevents.github.io/front-in-fortaleza-app/data/schedule.json')
     .success(function(data) {
       var attraction = _.find(data, {id: attractionId});
       dfd.resolve(attraction);

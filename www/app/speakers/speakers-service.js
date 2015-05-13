@@ -5,7 +5,7 @@ angular.module('confboilerplate.speakers.services')
   this.get = function() {
     var dfd = $q.defer();
 
-    $http.get('http://devevents.github.io/conf-app-boilerplate/data/speakers.json')
+    $http.get('http://devevents.github.io/front-in-fortaleza-app/data/speakers.json')
     .success(function(data) {
       dfd.resolve(data);
     })
