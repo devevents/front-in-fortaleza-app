@@ -1,13 +1,13 @@
 {
-  "name": "Conference Example",
-  "edition": "Example Edition",
-  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.",
-  "logo": "http://devevents.github.io/conf-app-boilerplate/static/img/about/logo.png",
+  "name": "Front in Fortaleza 2015",
+  "edition": "2º Edição",
+  "description": "A Primeira edição do Front in Fortaleza foi um sucesso e no ano de 2015 ocorrerá dia 16 de Maio na Faculdade 7 de Setembro, sempre como tema principal o desenvolvimento da camada mais próxima dos usuários e clientes de soluções web, ou seja, tudo que ele vê e interage: FrontEnd e suas tecnologias (HTML, CSS, JavaScript e afins).",
+  "logo": "http://devevents.github.io/front-in-fortaleza-app/static/img/about/logo.png",
   "contact": {  
-    "website": "example.com",
-    "email": "conf@example.com",
-    "twitter": "@example",
-    "facebook": "example.conf",  
-    "github": "example.conf"
+    "website": "www.frontinfortaleza.com.br",
+    "email": "",
+    "twitter": "@frontinfortal",
+    "facebook": "FrontInFortaleza",  
+    "github": "Front-in-Fortaleza"
   }   
 }
