@@ -1,14 +1,26 @@
 [
   {
-    "name":"Partner 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor1.com"    
+    "name":"BrazilJS",
+    "description":"",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/partners/brazil_js.png",
+    "website":"www.braziljs.org"    
   },
   {
-    "name":"Partner 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor2.com"
+    "name":"Dizvulga",
+    "description":"",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/partners/dizvulga.png",
+    "website":"www.facebook.com/dizvulga"    
+  },
+  {
+    "name":"ITIC",
+    "description":"",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/partners/itic.png",
+    "website":"www.iticdigital.org"    
+  },
+  {
+    "name":"Zona Dev",
+    "description":"",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/partners/zona_dev.png",
+    "website":"www.zonadev.com.br"
   }
 ]
