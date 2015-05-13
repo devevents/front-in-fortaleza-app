@@ -7689,7 +7689,7 @@ a.button {
   margin-top: 20px; }
 
 .main-menu ion-content {
-  background-color: #e8e242; }
+  background-color: #88af37; }
 .main-menu .menu-header-bar-title {
   font-size: 28px;
   font-weight: 500;
@@ -7705,9 +7705,9 @@ a.button {
   border-right: none;
   border-left: none;
   border-color: rgba(179, 179, 179, 0.2);
-  background-color: #e8e242; }
+  background-color: #88af37; }
   .main-menu ion-item.item .item-content {
-    background-color: #e8e242;
+    background-color: #88af37;
     padding: 20px;
     padding-right: 60px;
     text-align: right; }
@@ -7719,7 +7719,7 @@ a.button {
       color: #313131;
       font-size: calc(30px - 4px); }
   .main-menu ion-item.item .item-content.activated {
-    background-color: #eee96f; }
+    background-color: #a1c851; }
   .main-menu ion-item.item .menu-text {
     color: #ffffff;
     font-weight: 500; }
@@ -7731,18 +7731,18 @@ a.button {
 .about-view {
   background: #eaeaea; }
   .about-view .about .item.title {
-    background-color: #e8e242; }
+    background-color: #88af37; }
   .about-view .about .item-image {
     border-top: none; }
   .about-view .about-name {
     text-align: center;
     text-transform: uppercase;
-    color: #313131;
+    color: #ffffff;
     font-weight: bold;
     font-size: calc(12px + 6px); }
   .about-view .about-edition {
     text-align: center;
-    color: #313131;
+    color: #ffffff;
     font-weight: bold;
     font-size: calc(12px + 2px); }
   .about-view .about-description {
@@ -7777,13 +7777,13 @@ a.button {
 .speakers-view {
   background: #eaeaea; }
   .speakers-view .speaker .item.title {
-    background-color: #e8e242; }
+    background-color: #88af37; }
   .speakers-view .speaker .item-image {
     border-top: none; }
   .speakers-view .speaker-name {
     text-align: center;
     text-transform: uppercase;
-    color: #313131;
+    color: #ffffff;
     font-weight: bold;
     font-size: calc(12px + 6px); }
   .speakers-view .speaker-bio {
@@ -7801,7 +7801,7 @@ a.button {
     .speakers-view .speaker-tags .badge {
       position: initial;
       margin: 4px 2px;
-      background-color: #e8e242; }
+      background-color: #88af37; }
     .speakers-view .speaker-tags .speaker-tag-item {
       text-align: center; }
   .speakers-view .speaker-buttons {
@@ -7831,7 +7831,7 @@ a.button {
     font-size: calc(12px + 2px);
     font-weight: 400; }
   .schedule-view .tab-title.tab-item.tab-item-active {
-    border-color: #e8e242;
+    border-color: #88af37;
     margin-top: 0px;
     border-width: 0px 0px 4px 0px !important; }
     .schedule-view .tab-title.tab-item.tab-item-active .tab-title {
@@ -7872,9 +7872,9 @@ a.button {
       width: 100%;
       border-radius: 5px 5px 0px 0px; }
     .schedule-view .attraction-content.talk:after {
-      background-color: rgba(22, 160, 133, 0.6); }
+      background-color: rgba(136, 175, 55, 0.6); }
     .schedule-view .attraction-content.lightningtalk:after {
-      background-color: rgba(39, 174, 96, 0.6); }
+      background-color: rgba(22, 160, 133, 0.6); }
     .schedule-view .attraction-content.workshop:after {
       background-color: rgba(41, 128, 185, 0.6); }
     .schedule-view .attraction-content.keynote:after {
@@ -7908,12 +7908,12 @@ a.button {
       line-height: 25px;
       padding: 0px 14px; }
       .schedule-view .attraction-content .attraction-type-tag.talk-attraction {
-        background: #107360;
+        background: #6a882b;
         text-transform: capitalize;
         font-weight: 500;
         color: #ffffff; }
       .schedule-view .attraction-content .attraction-type-tag.lightningtalk-attraction {
-        background-color: #1e8449;
+        background-color: #107360;
         text-transform: capitalize;
         font-weight: 500;
         color: #ffffff; }
@@ -7950,7 +7950,7 @@ a.button {
       font-weight: 500;
       display: block; }
     .attraction-view .attraction-details .attraction-speakers {
-      color: #e8e242;
+      color: #88af37;
       font-size: calc(12px + 2px);
       font-weight: 400;
       display: block; }
@@ -7978,13 +7978,13 @@ a.button {
     font-size: calc(12px + 2px);
     font-weight: 400; }
   .sponsors-view .tab-title.tab-item.tab-item-active {
-    border-color: #e8e242;
+    border-color: #88af37;
     margin-top: 0px;
     border-width: 0px 0px 4px 0px !important; }
     .sponsors-view .tab-title.tab-item.tab-item-active .tab-title {
       font-weight: 600; }
   .sponsors-view .sponsor-details .item.title {
-    background-color: #e8e242; }
+    background-color: #88af37; }
   .sponsors-view .sponsor-details .item-image {
     border-top: none; }
   .sponsors-view .sponsor-name {
@@ -8016,13 +8016,13 @@ a.button {
 .partners-view {
   background: #eaeaea; }
   .partners-view .partner .item.title {
-    background-color: #e8e242; }
+    background-color: #88af37; }
   .partners-view .partner .item-image {
     border-top: none; }
   .partners-view .partner-name {
     text-align: center;
     text-transform: uppercase;
-    color: #313131;
+    color: #ffffff;
     font-weight: bold;
     font-size: calc(12px + 6px); }
   .partners-view .partner-description {

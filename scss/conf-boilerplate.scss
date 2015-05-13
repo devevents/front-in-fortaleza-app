@@ -20,10 +20,9 @@
 
 // Colors
 
-$yellow: #e8e242; // The one used at Conf Boilerplate
+$green: #88af37; // The one from Front in Fortaleza
 $gray: #313131; // The one used at Conf Boilerplate
 $turquoise: #16a085;
-$green: #27ae60;
 $blue: #2980b9;
 $purple: #8e44ad;
 $concrete: #bdc3c7;
@@ -33,13 +32,14 @@ $white: #ffffff;
 
 $content-bg: $silver;
 $content-color: $gray;
+$titles: $white;
 
 $top-bar-bg: $gray;
 $top-bar-color: $white;
 
 $loading-color: $white;
 
-$main-menu-bg: $yellow;
+$main-menu-bg: $green;
 $main-menu-color: $white;
 
 $loading-color: $white;
@@ -47,8 +47,8 @@ $loading-color: $white;
 $actions-bg: $white;
 
 $attraction-color: $white;
-$talk-bg-color: $turquoise;
-$lightningtalk-bg-color: $green;
+$talk-bg-color: $green; 
+$lightningtalk-bg-color: $turquoise;
 $workshop-bg-color: $blue;
 $keynote-bg-color: $purple;
 $general-bg-color: $concrete;

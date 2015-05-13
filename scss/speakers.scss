@@ -20,7 +20,7 @@
   {
     text-align: center;
     text-transform: uppercase;
-    color: $top-bar-bg;
+    color: $titles;
     font-weight: bold;
     // font-size: 18px;
     @include cssCalc("font-size", "#{($font-size)} + 6px");

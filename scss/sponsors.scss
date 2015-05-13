@@ -50,7 +50,7 @@
   {
     text-align: center;
     text-transform: uppercase;
-    color: $top-bar-bg;
+    color: $titles;
     font-weight: bold;
     @include cssCalc("font-size", "#{($font-size)} + 6px");
   }
