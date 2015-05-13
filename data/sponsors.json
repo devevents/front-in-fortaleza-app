@@ -1,44 +1,44 @@
 [
   {
-    "name":"Sponsor 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor1.com",
+    "name":"Globo.com",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/globo.png",
+    "website":"http://www.globo.com/",
     "type":"gold"    
   },
   {
-    "name":"Sponsor 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor2.com",
+    "name":"FA7",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/fa7.png",
+    "website":"http://www.fa7.edu.br/",
     "type":"gold"    
   },
   {
-    "name":"Sponsor 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor1.com",
+    "name":"O Povo Online",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/opovo.png",
+    "website":"http://www.opovo.com.br/",
+    "type":"gold"    
+  },
+  {
+    "name":"Editora Novatec",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/novatec.png",
+    "website":"http://novatec.com.br/",
     "type":"silver"   
   },
   {
-    "name":"Sponsor 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor2.com",
+    "name":"WOBO Inc",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/wobo.png",
+    "website":"http://woboinc.com/",
     "type":"silver"    
   },
   {
-    "name":"Sponsor 1",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor1.com",
-    "type":"bronze"    
+    "name":"Concrete Solutions",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/concrete_solutions.png",
+    "website":"http://www.concretesolutions.com.br/",
+    "type":"silver"    
   },
   {
-    "name":"Sponsor 2",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/sponsor.png",
-    "website":"www.sponsor2.com",
+    "name":"Eventick",
+    "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/bronze/eventick.png",
+    "website":"http://www.eventick.com.br/",
     "type":"bronze"    
   }
 ]
