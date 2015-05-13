@@ -1,0 +1,80 @@
+[
+  {
+    "id":"1",
+    "title":"Registration",
+    "time":{
+      "start":"9:00",
+      "finish":"10:00"
+    },
+    "type":"general",
+    "room":"",
+    "date":"day1"
+  },
+  {
+    "id":"2",
+    "title":"Talk 1",
+    "time":{
+      "start":"10:30",
+      "finish":"11:30"
+    },
+    "type":"talk",
+    "speakers":[
+      {
+        "name":"Speaker Example 1",
+        "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
+      }
+    ],
+    "background_img":"http://devevents.github.io/conf-app-boilerplate/static/img/talks/talk.png",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "room":"Auditorium 1",
+    "date":"day1"
+  },
+  {
+    "id":"3",
+    "title":"Close",
+    "time":{
+      "start":"18:00"
+    },
+    "type":"general",
+    "date":"day1"
+  },
+  {
+    "id":"4",
+    "title":"Breakfast",
+    "time":{
+      "start":"9:00",
+      "finish":"10:00"
+    },
+    "type":"general",
+    "room":"",
+    "date":"day2"
+  },
+  {
+    "id":"5",
+    "title":"Talk 2",
+    "time":{
+      "start":"10:30",
+      "finish":"11:30"
+    },
+    "type":"lightningtalk",
+    "speakers":[
+      {
+        "name":"Speaker Example 2",
+        "image":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png"
+      }
+    ],
+    "background_img":"http://devevents.github.io/conf-app-boilerplate/static/img/talks/talk.png",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "room":"Small Auditorium",
+    "date":"day2"
+  },
+  {
+    "id":"6",
+    "title":"Close",
+    "time":{
+      "start":"18:00"
+    },
+    "type":"general",
+    "date":"day2"
+  }
+]

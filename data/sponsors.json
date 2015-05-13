@@ -1,0 +1,44 @@
+[
+  {
+    "name":"Sponsor 1",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor1.com",
+    "type":"gold"    
+  },
+  {
+    "name":"Sponsor 2",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor2.com",
+    "type":"gold"    
+  },
+  {
+    "name":"Sponsor 1",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor1.com",
+    "type":"silver"   
+  },
+  {
+    "name":"Sponsor 2",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor2.com",
+    "type":"silver"    
+  },
+  {
+    "name":"Sponsor 1",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor1.com",
+    "type":"bronze"    
+  },
+  {
+    "name":"Sponsor 2",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor2.com",
+    "type":"bronze"    
+  }
+]

@@ -5,4 +5,11 @@ to create an app with information about the event.
 
 ---
 
-This branch contains the [Ionic](http://ionicframework.com/) application that will fetch data from branch `gh-pages`.
+This branch contains all *JSON* data fetched in the application at branch `master`. This data includes:
+
+* *About* - to describe what's the main goal of your event.
+* *Location* - to show where it's going to happen through Google Maps.
+* *Speakers* - to list information about speakers.
+* *Schedule* - to show the agenda.
+* *Sponsors* - to show the brand of your sponsors.
+* *Partners* - to show the brand of your partners.

@@ -1,0 +1,13 @@
+{
+  "name": "Conference Example",
+  "edition": "Example Edition",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor.",
+  "logo": "http://devevents.github.io/conf-app-boilerplate/static/img/about/logo.png",
+  "contact": {  
+    "website": "example.com",
+    "email": "conf@example.com",
+    "twitter": "@example",
+    "facebook": "example.conf",  
+    "github": "example.conf"
+  }   
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name":"Partner 1",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor1.com"    
+  },
+  {
+    "name":"Partner 2",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "logo":"http://devevents.github.io/conf-app-boilerplate/static/img/sponsors/sponsor.png",
+    "website":"www.sponsor2.com"
+  }
+]

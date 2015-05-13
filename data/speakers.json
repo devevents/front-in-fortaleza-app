@@ -1,0 +1,20 @@
+[
+  {
+    "name":"Speaker 1",
+    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
+    "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
+    "company":"Company 1",
+    "twitter":"example1",
+    "tags":["Company", "Framework"],
+    "attraction_id":"2"
+  },
+  {
+    "name":"Speaker 2",
+    "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
+    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
+    "company":"Company 2",
+    "twitter":"example2",
+    "tags":["Company", "Framework"],
+    "attraction_id":"5"
+  }
+]
