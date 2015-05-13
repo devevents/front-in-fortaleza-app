@@ -17,7 +17,7 @@
     <img ng-show="attraction.speakers.length == 1" class="speaker-image" ng-src="{{attraction.speakers[0].image}}"/>
     <div class="attraction-details">
       <span class="attraction-title" ng-bind-html="attraction.title"></span>
-      <span ng-show="attraction.speakers" class="attraction-speakers">By
+      <span ng-show="attraction.speakers" class="attraction-speakers">por
         <span class="attraction-speaker" ng-repeat="speaker in attraction.speakers">{{speaker.name}}<span class="attraction-speaker-concat">{{$last ? '' : ' & '}}</span></span>
       </span>
     </div>
