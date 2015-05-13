@@ -1,20 +1,83 @@
 [
   {
-    "name":"Speaker 1",
-    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
-    "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
-    "company":"Company 1",
-    "twitter":"example1",
-    "tags":["Company", "Framework"],
+    "name":"Juarez Filho",
+    "bio":"É Front end Engineer na madewithlove onde constrói produtos com amor, tem mais de 7 anos de experiência, começou sua carreira como desenvolvedor PHP, tentou aprender Java e depois se entregou ao Ruby e Rails, mas com sua primeira classe CSS dedicou-se completamente a carreira de Front End e UX. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/juarez.jpg",
+    "company":"madewithlove",
+    "twitter":"juarezpaf",
+    "tags":["Apresentador", "madewithlove"],
+    "attraction_id":""
+  },
+  {
+    "name":"Maurício 'Maujor' Samy Silva",
+    "bio":"Maujor, O Dinossauro das CSS, é um dos introdutores das CSS no Brasil. Criou e mantém o site (http://maujor.com) destinado ao ensino das CSS e dos Padrões Web. É um ativo frequentador de fóruns, escreve para vários portais brasileiros voltados a desenvolvedores web, é autor de artigos e de trabalhos relacionados às CSS publicados em diversos sites de desenvolvimento web. Maujor é autor de 12 livros sobre técnicas de desenvolvimento web. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/maujor.jpg",
+    "company":"Editora Novatec",
+    "twitter":"maujor",
+    "tags":["Novatec", "CSS"],
     "attraction_id":"2"
   },
   {
-    "name":"Speaker 2",
-    "photo":"http://devevents.github.io/conf-app-boilerplate/static/img/speakers/speaker.png",
-    "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n",
-    "company":"Company 2",
-    "twitter":"example2",
-    "tags":["Company", "Framework"],
+    "name":"Almir Filho",
+    "bio":"Desenvolvedor Web na Globo.com, co-fundador do Loop Infinito e co-apresentador do ZOFE, onde compartilha seu conhecimento, experiências e opiniões sobre o mundo front-end. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/almir-filho.jpg",
+    "company":"Globo.com/Loop Infinito",
+    "twitter":"almirfilho",
+    "tags":["Globo.com", "Loop Infinito", "ZOFE"],
+    "attraction_id":"4"
+  },
+  {
+    "name":"Pedro Araujo",
+    "bio":"Desenvolvedor front-end da Concrete Solutions, Pedro é apaixonado pelo o que faz. Apesar de ser front-end, gosta de se envolver com Back-end, onde trabalhou com Java e PHP. Já participou de projetos em grandes empresas como Rede, Dafiti, Unimed, Estadão e Magazine Luiza e não dispensa uma boa cerveja com os amigos. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/pedro.jpg",
+    "company":"Concrete Solutions",
+    "twitter":"pedrotcaraujo",
+    "tags":["Concrete"],
     "attraction_id":"5"
+  },
+  {
+    "name":"Alexandre Magno",
+    "bio":"Alexandre Magno é atualmente software engineer na Globo.com. Desenvolvedor web há mais de 7 anos, é um contribuidor ativo na comunidade open-source, tem bastante experiência em diferentes linguagens server side, como Ruby, Python e PHP, além de ser especialista em front-end. Desenvolveu várias bibliotecas open source usadas amplamente na Globo.com. Ele também é contribuidor do Twitter Bootstrap e autor do livro Mobile First Bootstrap. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/alexandre.jpg",
+    "company":"Globo.com",
+    "twitter":"alexanmtz",
+    "tags":["Globo.com", "Twitter Bootstrap", "Mobile First Bootstrap"],
+    "attraction_id":"7"
+  },
+  {
+    "name":"Luiz Tiago Oliveira",
+    "bio":"Com mais de 10 anos de experiência, trabalhou em alguns projetos open-source e é um dos fundadores do Pernambuco.JS e jQuery Brazil. Atualmente trabalha na Wobo Inc (California, EUA) como desenvolvedor full-stack, especialista em Front-End e Mobile. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg",
+    "company":"Wobo Inc",
+    "twitter":"luiztiago",
+    "tags":["Wobo", "Pernambuco.JS"],
+    "attraction_id":"8"
+  },
+  {
+    "name":"Guilherme Farias",
+    "bio":"Guilherme Farias, tem 21 anos, é desenvolvedor Full Stack, já passou por Java, PHP e atualmente está se aventurando com tudo que o JavaScript pode oferecer. Fundou a DigitalBits, empresa pernambucana focada no desenvolvimento de aplicações web modernas. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/guilherme.jpg",
+    "company":"DigitalBits",
+    "twitter":"Guiky",
+    "tags":["DigitalBits", "Mozilla"],
+    "attraction_id":"9"
+  },
+  {
+    "name":"Vitor Alencar",
+    "bio":"Desenvolvedor FrontEnd apaixonado, com foco em tecnologias novas e escaláveis, graduando em sistemas de informação, Organizador GDG Fortaleza e cofundador do DEV/IO/FOR. Totalmente workaholic and coffee addicted, trabalha atualmente como desenvolvedor front-end na Miltecnologia, e como desenvolvedor de mobile na empresa AgendaKids. \n",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/vitor.jpg",
+    "company":"Miltecnologia/AgendaKids",
+    "twitter":"vitormalencar",
+    "tags":["Miltecnologia", "AgendaKids", "Ionic"],
+    "attraction_id":"11"
+  },
+  {
+    "name":"Joselito Junior",
+    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/joselito.jpg",
+    "bio":"Organizador do GDG Recife, co-criador e instrutor dos cursos AngularJS Bootcamp e PhoneGap Bootcamp, e fundador das startups premiadas Estudorama e Rabiscapp. Além de ganhador de Hackathons profissional, é entusiasta do Design Thinking, Lean Startup e desenvolvimento Ágil de software. Fã de Fórmula 1 e de fazer piadas de gosto duvidoso.\n",
+    "company":"Tampa Works",
+    "twitter":"joselitojunior1",
+    "tags":["Tampa Works", "GDG Recife", "AngularJS", "PhoneGap"],
+    "attraction_id":"12"
   }
 ]
