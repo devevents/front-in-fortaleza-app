@@ -138,7 +138,7 @@
         "image":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/guilherme.jpg"
       }
     ],
-    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg",
+    "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/guilherme.jpg",
     "description":"As tecnologias client-side evoluíram de forma absurda nos últimos anos e novas ferramentas surgiram para ajudar ainda mais a vida dos desenvolvedores. Nesta palestra será apresentado funcionalidades incríveis do Firefox Developer Tools, que é ideal para quem se interessa por produtividade e qualidade no desenvolvimento de aplicações web.",
     "date":"day1"
   },
