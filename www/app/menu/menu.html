@@ -1,0 +1,45 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar app-top-bar">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu class="main-menu" side="left">
+    <ion-content scroll="false">
+      <ion-list>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.about">
+          <i class="icon ion-ios-information"></i>
+          <h2 class="menu-text">About</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.location">
+          <i class="icon ion-ios-location"></i>
+          <h2 class="menu-text">Location</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.speakers">
+          <i class="icon ion-speakerphone"></i>
+          <h2 class="menu-text">Speakers</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.schedule">
+          <i class="icon ion-calendar"></i>
+          <h2 class="menu-text">Schedule</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.sponsors">
+          <i class="icon ion-social-usd"></i>
+          <h2 class="menu-text">Sponsors</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.partners">
+          <i class="icon ion-ios-people"></i>
+          <h2 class="menu-text">Partners</h2>
+        </ion-item>
+      </ion-list>
+      <h2 class="menu-header-bar-title">Conf<span class="featured">App</span>Boilerplate</h2>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

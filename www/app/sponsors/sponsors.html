@@ -1,0 +1,42 @@
+<ion-view class="sponsors-view">
+  <ion-nav-title class="has-tabs-top">
+    <span>Sponsors</span>
+  </ion-nav-title>
+
+  <ion-tabs class="tabs-striped tabs-top tabs-color-light">
+
+    <ion-tab class="tab-title" title="GOLD">
+        <ion-pane>
+            <ion-content class="padding">
+                <div>
+                    <div class="card" ng-repeat="sponsor in sponsors.gold">
+                        <div sponsor-details class="sponsor-details"></div>
+                    </div>
+                </div>
+            </ion-content>
+      </ion-pane>
+    </ion-tab>
+    <ion-tab class="tab-title" title="SILVER">
+        <ion-pane>
+            <ion-content class="padding">
+                <div>
+                    <div class="card" ng-repeat="sponsor in sponsors.silver">
+                        <div sponsor-details class="sponsor-details"></div>
+                    </div>
+                </div>
+            </ion-content>
+      </ion-pane>
+    </ion-tab>
+    <ion-tab class="tab-title" title="BRONZE">
+        <ion-pane>
+            <ion-content class="padding">
+                <div>
+                    <div class="card" ng-repeat="sponsor in sponsors.bronze">
+                        <div sponsor-details class="sponsor-details"></div>
+                    </div>
+                </div>
+            </ion-content>
+      </ion-pane>
+    </ion-tab>
+  </ion-tabs>
+</ion-view>

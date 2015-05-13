@@ -1,0 +1,100 @@
+.sponsors-view
+{
+  
+  background: $content-bg;
+
+  .tabs-striped .tabs
+  {
+    background-color: $top-bar-bg;
+
+    .tab-item
+    {
+      max-width: none;
+    }
+  }
+
+  .tab-title
+  {
+    color: $top-bar-color;
+    @include cssCalc("font-size", "#{($font-size)} + 2px");
+    font-weight:400;
+  }
+
+  .tab-title.tab-item.tab-item-active
+  {
+
+    border-color: $main-menu-bg;
+    margin-top: 0px;
+    border-width: 0px 0px 4px 0px !important;
+
+    .tab-title
+    {
+      font-weight:600;
+    }
+  }
+  
+  .sponsor-details
+  {
+    .item.title
+    {
+      background-color: $main-menu-bg;
+    }
+
+    .item-image
+    {
+      border-top: none;
+    }
+  }
+  
+  .sponsor-name
+  {
+    text-align: center;
+    text-transform: uppercase;
+    color: $top-bar-bg;
+    font-weight: bold;
+    @include cssCalc("font-size", "#{($font-size)} + 6px");
+  }
+  
+  .sponsor-description
+  {
+    margin-top:0px;
+  }
+
+  .sponsor-logo
+  {
+    height: 100vw;
+  }
+  
+  .sponsor-buttons
+  {
+    background-color: $actions-bg;
+
+    .row,
+    .col
+    {
+      padding:0px;
+    }
+
+    .button
+    {
+      margin:0px;
+      border-color: $top-bar-bg;
+      color: $top-bar-bg;
+
+      &.activated{
+        background-color: $top-bar-bg;
+        color: $top-bar-color;
+      }
+    }
+
+    .col:first-child
+    {
+      margin-right:8px;
+    }
+
+    .col:last-child
+    {
+      margin-left:8px;
+    }
+  }    
+}

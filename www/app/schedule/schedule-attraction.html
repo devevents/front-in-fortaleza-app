@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col attraction-time">
+    <span class="time-start">{{attraction.time.start}}</span>
+    <span ng-show="attraction.time.finish" class="time-finish"> to {{attraction.time.finish}}</span>
+  </div>
+  <a ng-if="attraction.type !== 'general'" class="col col-75 attraction-content {{attraction.type}}" style="background-image:url({{attraction.background_img}})" ui-sref="app.attraction({attractionId: attraction.id})">
+    <p class="attraction-title" ng-bind-html="attraction.title"></p>
+    <p class="attraction-speakers" ng-show="{{ attraction.speakers }}">
+      <span ng-repeat="speaker in attraction.speakers">{{speaker.name}}{{$last ? '' : ', '}}</span>
+    </p>
+    <p class="attraction-room" ng-show="attraction.room">{{attraction.room}}</p>
+    <div class="attraction-type-tag {{attraction.type+'-attraction'}}">{{attraction.type}}</div>
+  </a>
+  <div ng-if="attraction.type === 'general'" class="col col-75 attraction-content {{attraction.type}}">
+    <p class="attraction-title" ng-bind-html="attraction.title"></p>
+    <p class="attraction-room">{{attraction.room}}</p>
+  </div>
+</div>

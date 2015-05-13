@@ -1,0 +1,19 @@
+<div class="item title">
+  <h2 class="sponsor-name">{{sponsor.name}}</h2>
+</div>
+
+<div class="item item-image">
+  <img class="full-image sponsor-image" ng-src="{{sponsor.logo}}">
+</div>
+
+<div class="item item-body">
+  <p class="sponsor-description" ng-bind-html="sponsor.description | rawHtml">
+  </p>
+  <div class="sponsor-buttons">
+    <div class="row">
+		<div ng-if="sponsor.website" class="col">		  
+		  <a href="" ng-click="goToUrl('http://{{sponsor.website}}')" class="button button-small button-outline button-block">Visit Website</a>
+		</div>
+    </div>
+  </div>
+</div>

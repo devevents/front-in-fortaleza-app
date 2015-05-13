@@ -1,0 +1,28 @@
+<ion-view class="attraction-view">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-share share-attraction" ng-click="shareAttraction(attraction)"></a>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>{{attraction.type}}</span>
+  </ion-nav-title>
+  <ion-content>
+
+    <ion-slide-box ng-show="attraction.speakers.length > 1" auto-play="true" does-continue="true">
+      <ion-slide ng-repeat="speaker in attraction.speakers">
+        <div style="width:100vw; overflow:hidden;">
+          <img class="speaker-image" ng-src="{{speaker.image}}"/>
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+    <img ng-show="attraction.speakers.length == 1" class="speaker-image" ng-src="{{attraction.speakers[0].image}}"/>
+    <div class="attraction-details">
+      <span class="attraction-title" ng-bind-html="attraction.title"></span>
+      <span ng-show="attraction.speakers" class="attraction-speakers">By
+        <span class="attraction-speaker" ng-repeat="speaker in attraction.speakers">{{speaker.name}}<span class="attraction-speaker-concat">{{$last ? '' : ' & '}}</span></span>
+      </span>
+    </div>
+    <div class="attraction-description">
+      <p ng-bind-html="attraction.description"></p>
+    </div>
+  </ion-content>
+</ion-view>

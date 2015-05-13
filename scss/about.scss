@@ -1,0 +1,74 @@
+.about-view
+{
+  
+  background: $content-bg;
+
+  .about
+  {
+
+    .item.title
+    {
+      background-color: $main-menu-bg;
+    }
+
+    .item-image
+    {
+      border-top: none;
+    }
+  }
+
+  .about-name
+  {
+    text-align: center;
+    text-transform: uppercase;
+    color: $top-bar-bg;
+    font-weight: bold;
+    @include cssCalc("font-size", "#{($font-size)} + 6px");
+  }
+  
+  .about-edition
+  {
+    text-align: center;
+    color: $top-bar-bg;
+    font-weight: bold;
+    @include cssCalc("font-size", "#{($font-size)} + 2px");
+  }
+  
+  .about-description
+  {
+    margin-top:0px;
+  }
+
+  .about-buttons
+  {
+    background-color: $actions-bg;
+
+    .row,
+    .col
+    {
+      padding:0px;
+    }
+
+    .button
+    {
+      margin: 8px;
+      border-color: $top-bar-bg;
+      color: $top-bar-bg;
+
+      &.activated{
+        background-color: $top-bar-bg;
+        color: $top-bar-color;
+      }
+    }
+
+    .col:first-child
+    {
+      margin-right:8px;
+    }
+
+    .col:last-child
+    {
+      margin-left:8px;
+    }
+  }
+}

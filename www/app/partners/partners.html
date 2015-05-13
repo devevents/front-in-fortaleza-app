@@ -1,0 +1,28 @@
+<ion-view class="partners-view">
+  <ion-nav-title>
+    <span>Partners</span>
+  </ion-nav-title>
+  <ion-content>
+  <div class="card" ng-repeat="partner in partners">
+    <div class="list partner" >
+      <div class="item title">
+        <h2 class="partner-name">{{partner.name}}</h2>
+      </div>
+      <div class="item item-image">
+        <img class="full-image partner-image" ng-src="{{partner.logo}}">
+      </div>
+      <div class="item item-body">
+        <p class="partner-description" ng-bind-html="partner.description | rawHtml">
+        </p>
+        <div class="partner-buttons">
+          <div class="row">
+			<div ng-if="partner.website" class="col">		  
+			  <a href="" ng-click="goToUrl('http://{{partner.website}}')" class="button button-small button-outline button-block">Visit Website</a>
+			</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>
