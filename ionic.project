@@ -1,5 +1,5 @@
 {
-  "name": "conf-app-boilerplate",
+  "name": "Front in Fortaleza",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",
@@ -7,6 +7,6 @@
   ],
   "watchPatterns": [
     "www/**/*",
-    "!www/lib/**/*"
+    "!www/assets/lib/**/*"
   ]
 }
