@@ -1,14 +1,5 @@
 [
   {
-    "name":"Juarez Filho",
-    "bio":"É Front end Engineer na madewithlove onde constrói produtos com amor, tem mais de 7 anos de experiência, começou sua carreira como desenvolvedor PHP, tentou aprender Java e depois se entregou ao Ruby e Rails, mas com sua primeira classe CSS dedicou-se completamente a carreira de Front End e UX. \n",
-    "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/juarez.jpg",
-    "company":"madewithlove",
-    "twitter":"juarezpaf",
-    "tags":["Apresentador", "madewithlove"],
-    "attraction_id":""
-  },
-  {
     "name":"Maurício 'Maujor' Samy Silva",
     "bio":"Maujor, O Dinossauro das CSS, é um dos introdutores das CSS no Brasil. Criou e mantém o site (http://maujor.com) destinado ao ensino das CSS e dos Padrões Web. É um ativo frequentador de fóruns, escreve para vários portais brasileiros voltados a desenvolvedores web, é autor de artigos e de trabalhos relacionados às CSS publicados em diversos sites de desenvolvimento web. Maujor é autor de 12 livros sobre técnicas de desenvolvimento web. \n",
     "photo":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/maujor.jpg",
