@@ -4,7 +4,7 @@ angular.module('confboilerplate.partners.controllers')
   $scope.partners = [];
 
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Partners.get()

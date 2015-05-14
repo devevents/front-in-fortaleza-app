@@ -4,7 +4,7 @@ angular.module('confboilerplate.schedule.controllers')
   var attractionId = $stateParams.attractionId;
 
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Schedule.getAttraction(attractionId)
@@ -25,7 +25,7 @@ angular.module('confboilerplate.schedule.controllers')
       }
     });
 
-    var message = "Enjoying " + attraction.title + " by " + speakersText + " at #MyConf";
+    var message = "Curtindo a palestra" + attraction.title + " por " + speakersText + " no #FrontInFortal";
     window.plugins.socialsharing.share(message);
   };
 

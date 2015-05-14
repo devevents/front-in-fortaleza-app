@@ -3,7 +3,7 @@ angular.module('confboilerplate.about.controllers')
 .controller('AboutCtrl', function($scope, $http, About, $ionicLoading) {
   $scope.about = [];
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   About.get()

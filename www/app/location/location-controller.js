@@ -3,7 +3,7 @@ angular.module('confboilerplate.location.controllers')
 .controller('LocationCtrl', function($scope, $http, Location, $ionicLoading) {
   $scope.location = [];
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Location.get()

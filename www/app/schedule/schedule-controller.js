@@ -4,7 +4,7 @@ angular.module('confboilerplate.schedule.controllers')
   $scope.attractions = [];
 
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Schedule.get()

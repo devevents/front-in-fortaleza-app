@@ -4,7 +4,7 @@ angular.module('confboilerplate.sponsors.controllers')
   $scope.sponsors = [];
 
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Sponsors.get()

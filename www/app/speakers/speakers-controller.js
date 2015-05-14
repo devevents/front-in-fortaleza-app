@@ -4,7 +4,7 @@ angular.module('confboilerplate.speakers.controllers')
   $scope.speakers = [];
 
   $ionicLoading.show({
-    template: 'Loading...'
+    template: 'Carregando...'
   });
 
   Speakers.get()
