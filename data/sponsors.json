@@ -2,43 +2,43 @@
   {
     "name":"Globo.com",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/globo.png",
-    "website":"http://www.globo.com/",
+    "website":"www.globo.com",
     "type":"gold"    
   },
   {
     "name":"FA7",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/fa7.png",
-    "website":"http://www.fa7.edu.br/",
+    "website":"www.fa7.edu.br",
     "type":"gold"    
   },
   {
     "name":"O Povo Online",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/gold/opovo.png",
-    "website":"http://www.opovo.com.br/",
+    "website":"www.opovo.com.br",
     "type":"gold"    
   },
   {
     "name":"Editora Novatec",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/novatec.png",
-    "website":"http://novatec.com.br/",
+    "website":"www.novatec.com.br",
     "type":"silver"   
   },
   {
     "name":"WOBO Inc",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/wobo.png",
-    "website":"http://woboinc.com/",
+    "website":"www.woboinc.com",
     "type":"silver"    
   },
   {
     "name":"Concrete Solutions",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/silver/concrete_solutions.png",
-    "website":"http://www.concretesolutions.com.br/",
+    "website":"www.concretesolutions.com.br",
     "type":"silver"    
   },
   {
     "name":"Eventick",
     "logo":"http://devevents.github.io/front-in-fortaleza-app/static/img/sponsors/bronze/eventick.png",
-    "website":"http://www.eventick.com.br/",
+    "website":"www.eventick.com.br",
     "type":"bronze"    
   }
 ]
