@@ -25,7 +25,7 @@ angular.module('confboilerplate.schedule.controllers')
       }
     });
 
-    var message = "Curtindo a palestra" + attraction.title + " por " + speakersText + " no #FrontInFortal";
+    var message = "Curtindo a palestra " + attraction.title + " por " + speakersText + " no #frontinfortaleza";
     window.plugins.socialsharing.share(message);
   };
 
