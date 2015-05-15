@@ -15,20 +15,12 @@
 
   .menu-header-bar-title
   {
-    font-size: $menu-logo-font-size;
-    font-weight: 500;
-    width: 85%;
+    width: 75%;
     color: $main-menu-color;
     position: absolute;
     bottom: $category-margin/2;
     right: $category-margin;
     margin:0px;
-
-    .featured
-    {
-      color: $top-bar-bg;
-      font-weight: 600;
-    }
   }
 
   ion-item.item

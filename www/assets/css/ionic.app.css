@@ -7691,17 +7691,12 @@ a.button {
 .main-menu ion-content {
   background-color: #313131; }
 .main-menu .menu-header-bar-title {
-  font-size: 28px;
-  font-weight: 500;
-  width: 85%;
+  width: 75%;
   color: #ffffff;
   position: absolute;
   bottom: 10px;
   right: 20px;
   margin: 0px; }
-  .main-menu .menu-header-bar-title .featured {
-    color: #88af37;
-    font-weight: 600; }
 .main-menu ion-item.item {
   border-right: none;
   border-left: none;
