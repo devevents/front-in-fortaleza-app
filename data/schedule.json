@@ -75,6 +75,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/pedro.jpg",
     "description":"HTTP2 vai mudar a maneira de como devemos desenvolver websites. Vamos entender melhor quais são essas mudanças.",
+    "room":"Auditório",
     "date":"day1"
   },
   {
@@ -104,6 +105,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/alexandre.jpg",
     "description":"O que você faz para otimizar teu front-end? Já aprendemos várias técnicas, como compactação, minificar javascript, dentre várias outras disseminadas bastante na comunidade, mas esquecemos que, no mundo do cliente, onde no fim das contas o que importa é a sensação do usuário de rapidez e fluidez. Nesta palestra irei mostrar práticas de design e interações no front-end para que sua aplicação pareça ser mais rápida e assim dá uma melhor experiência de uso do seu site ou app apenas com soluções de design.",
+    "room":"Auditório",
     "date":"day1"
   }, 
   {
@@ -140,6 +142,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/guilherme.jpg",
     "description":"As tecnologias client-side evoluíram de forma absurda nos últimos anos e novas ferramentas surgiram para ajudar ainda mais a vida dos desenvolvedores. Nesta palestra será apresentado funcionalidades incríveis do Firefox Developer Tools, que é ideal para quem se interessa por produtividade e qualidade no desenvolvimento de aplicações web.",
+    "room":"Auditório",
     "date":"day1"
   },
   {
@@ -169,6 +172,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/vitor.jpg",
     "description":"",
+    "room":"Auditório",
     "date":"day1"
   },
   {
@@ -187,6 +191,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/joselito.jpg",
     "description":"Soluções na nuvem como o Hoodie, Parse e o Firebase estão permitindo que desenvolvedores criem aplicações com o mínimo de conhecimento sobre o Backend. Conheça mais sobre o noBackend e offline first e entenda que mais que uma funcionalidade, eles sao uma filosofia completamente diferente de desenvolvimento.",
+    "room":"Auditório",
     "date":"day1"
   },
   {
@@ -196,6 +201,7 @@
       "start":"18:00"
     },
     "type":"general",
+    "room":"Auditório",
     "date":"day1"
   }
 ]
