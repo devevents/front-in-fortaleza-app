@@ -7667,7 +7667,7 @@ a.button {
   color: #313131; }
 
 .bar.app-top-bar {
-  background-color: #313131; }
+  background-color: #88af37; }
   .bar.app-top-bar .title {
     color: #ffffff !important; }
     .bar.app-top-bar .title * {
@@ -7678,7 +7678,7 @@ a.button {
       color: #ffffff !important; }
 
 .menu-header-bar {
-  background-color: #313131; }
+  background-color: #88af37; }
   .menu-header-bar .menu-header-bar-title {
     color: #ffffff; }
 
@@ -7689,25 +7689,26 @@ a.button {
   margin-top: 20px; }
 
 .main-menu ion-content {
-  background-color: #88af37; }
+  background-color: #313131; }
 .main-menu .menu-header-bar-title {
   font-size: 28px;
   font-weight: 500;
+  width: 85%;
   color: #ffffff;
   position: absolute;
   bottom: 10px;
   right: 20px;
   margin: 0px; }
   .main-menu .menu-header-bar-title .featured {
-    color: #313131;
+    color: #88af37;
     font-weight: 600; }
 .main-menu ion-item.item {
   border-right: none;
   border-left: none;
   border-color: rgba(179, 179, 179, 0.2);
-  background-color: #88af37; }
+  background-color: #313131; }
   .main-menu ion-item.item .item-content {
-    background-color: #88af37;
+    background-color: #313131;
     padding: 20px;
     padding-right: 60px;
     text-align: right; }
@@ -7716,10 +7717,10 @@ a.button {
       right: 20px;
       left: initial; }
     .main-menu ion-item.item .item-content .icon:before {
-      color: #313131;
+      color: #88af37;
       font-size: calc(30px - 4px); }
   .main-menu ion-item.item .item-content.activated {
-    background-color: #a1c851; }
+    background-color: #4b4b4b; }
   .main-menu ion-item.item .menu-text {
     color: #ffffff;
     font-weight: 500; }
@@ -7731,7 +7732,7 @@ a.button {
 .about-view {
   background: #eaeaea; }
   .about-view .about .item.title {
-    background-color: #88af37; }
+    background-color: #313131; }
   .about-view .about .item-image {
     border-top: none; }
   .about-view .about-name {
@@ -7753,10 +7754,10 @@ a.button {
       padding: 0px; }
     .about-view .about-buttons .button {
       margin: 8px;
-      border-color: #313131;
-      color: #313131; }
+      border-color: #88af37;
+      color: #88af37; }
       .about-view .about-buttons .button.activated {
-        background-color: #313131;
+        background-color: #88af37;
         color: #ffffff; }
     .about-view .about-buttons .col:first-child {
       margin-right: 8px; }
@@ -7766,6 +7767,7 @@ a.button {
 .location-view .map {
   height: calc((((100vh - 44px) * 65) /100)); }
 .location-view .location-position {
+  color: #313131;
   height: calc((((100vh - 44px) * (100 - 65)) /100));
   border-bottom: none; }
   .location-view .location-position .row {
@@ -7777,7 +7779,7 @@ a.button {
 .speakers-view {
   background: #eaeaea; }
   .speakers-view .speaker .item.title {
-    background-color: #88af37; }
+    background-color: #313131; }
   .speakers-view .speaker .item-image {
     border-top: none; }
   .speakers-view .speaker-name {
@@ -7810,10 +7812,10 @@ a.button {
       padding: 0px; }
     .speakers-view .speaker-buttons .button {
       margin: 0px;
-      border-color: #313131;
-      color: #313131; }
+      border-color: #88af37;
+      color: #88af37; }
       .speakers-view .speaker-buttons .button.activated {
-        background-color: #313131;
+        background-color: #88af37;
         color: #ffffff; }
     .speakers-view .speaker-buttons .col:first-child {
       margin-right: 8px; }
@@ -7984,7 +7986,7 @@ a.button {
     .sponsors-view .tab-title.tab-item.tab-item-active .tab-title {
       font-weight: 600; }
   .sponsors-view .sponsor-details .item.title {
-    background-color: #88af37; }
+    background-color: #313131; }
   .sponsors-view .sponsor-details .item-image {
     border-top: none; }
   .sponsors-view .sponsor-name {
@@ -8003,10 +8005,10 @@ a.button {
       padding: 0px; }
     .sponsors-view .sponsor-buttons .button {
       margin: 0px;
-      border-color: #313131;
-      color: #313131; }
+      border-color: #88af37;
+      color: #88af37; }
       .sponsors-view .sponsor-buttons .button.activated {
-        background-color: #313131;
+        background-color: #88af37;
         color: #ffffff; }
     .sponsors-view .sponsor-buttons .col:first-child {
       margin-right: 8px; }
@@ -8016,7 +8018,7 @@ a.button {
 .partners-view {
   background: #eaeaea; }
   .partners-view .partner .item.title {
-    background-color: #88af37; }
+    background-color: #313131; }
   .partners-view .partner .item-image {
     border-top: none; }
   .partners-view .partner-name {
@@ -8033,10 +8035,10 @@ a.button {
       padding: 0px; }
     .partners-view .partner-buttons .button {
       margin: 0px;
-      border-color: #313131;
-      color: #313131; }
+      border-color: #88af37;
+      color: #88af37; }
       .partners-view .partner-buttons .button.activated {
-        background-color: #313131;
+        background-color: #88af37;
         color: #ffffff; }
     .partners-view .partner-buttons .col:first-child {
       margin-right: 8px; }

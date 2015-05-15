@@ -5,7 +5,7 @@
 
   .tabs-striped .tabs
   {
-    background-color: $top-bar-bg;
+     background-color: $content-color;
 
     .tab-item
     {
@@ -23,7 +23,7 @@
   .tab-title.tab-item.tab-item-active
   {
 
-    border-color: $main-menu-bg;
+    border-color: $top-bar-bg;
     margin-top: 0px;
     border-width: 0px 0px 4px 0px !important;
 

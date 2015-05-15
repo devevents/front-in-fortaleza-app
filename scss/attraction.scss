@@ -34,7 +34,7 @@
     }
     .attraction-speakers
     {
-      color: $main-menu-bg;
+      color: $top-bar-bg;
       @include cssCalc("font-size", "#{($font-size)} + 2px");
       font-weight: 400;
       display:block;
