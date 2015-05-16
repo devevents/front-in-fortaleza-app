@@ -124,6 +124,7 @@
     ],
     "background_img":"http://devevents.github.io/front-in-fortaleza-app/static/img/speakers/tiago.jpg",
     "description":"Com os adventos do mobile first, junto com o crescimento dos planos pré-pago das operadoras brasileiras, desenvolver uma aplicação inovadora e pecar na performance front-end não é a melhor solução. Serão abordados alguns pontos de boas práticas, bem como a utilização de mixins e extends, sem a importação de todo o código do Bootstrap.",
+    "room":"Auditório",
     "date":"day1"
   },
   {
