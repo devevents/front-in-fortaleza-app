@@ -14,6 +14,7 @@ angular.module('confboilerplate', [
   'confboilerplate.partners',
   'confboilerplate.schedule',
   'confboilerplate.speakers',
+  'confboilerplate.photos',
   'confboilerplate.sponsors'
 ])
 
@@ -67,6 +68,16 @@ angular.module('confboilerplate', [
       'menuContent': {
         templateUrl: "app/speakers/speakers.html",
         controller: 'SpeakersCtrl'
+      }
+    }
+  })
+
+  .state('app.photos', {
+    url: '/photos',
+    views: {
+      'menuContent': {
+        templateUrl: 'app/photos/photos.html',
+        controller: 'PhotosCtrl'
       }
     }
   })
