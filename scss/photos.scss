@@ -1,3 +1,119 @@
 .photos-view {
 	background: $content-bg;
+
+	.photo {
+		position: relative;
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 50%;
+
+		&.single-photo { width: 100%; }
+
+		.photo-img {
+			width: 100%;
+			height: auto;
+		}
+
+		.photo-body {
+			float: left;
+			margin: 15px 0 0 0;
+			padding: 0;
+
+			.photo-text {
+				float: left;
+				margin: 10px 0;
+				padding: 10px;
+				font-size: 16px;
+			}
+		}
+
+		.photo-body .user {
+			float: left;
+			width: 100%;
+		}
+
+		.user .user-picture {
+			float: left;
+			padding: 5px;
+			margin: 10px;
+			width: 35%;
+			background: #F4F4F4;
+			border: 1px solid #CCC;
+		}
+
+		.user .name {
+			margin: 0;
+			display: block;
+			text-align: center;
+			font-size: 18px;
+			color: #000;
+		}
+
+		.user .username {
+			margin: 40px 0 5px 0;
+			display: block;
+			text-align: center;
+			font-size: 27px;
+			color: $green;
+		}
+
+		.comments {
+			float: left;
+			width: 100%;
+			margin: 10px 0;
+
+			.comment-title {
+				float: left;
+				margin: 0;
+				width: 100%;
+				text-align: center;
+				font-size: 22px;
+				background: $green;
+				color: #FFF;
+				padding: 5px 0;
+				border-bottom: 1px solid $green;
+			}
+
+			.comment {
+				float: left;
+				width: 100%;
+				background: #FFF;
+				border-bottom: 1px solid #CCC;
+
+				.comment-img {
+					float: left;
+					width: 15%;
+					height: auto;
+				}
+
+				.comment-username {
+					float: left;
+					margin: 10px 0 0 10px;
+					font-weight: bold;
+					font-size: 16px;
+				}
+
+				.comment-text {
+					float: left;
+					width: 75%;
+					padding: 10px;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.btn-more {
+		float: left;
+		padding: 20px 0;
+		margin: 30px 5%;
+		width: 90%;
+		font-size: 18px;
+		border: none;
+		color: #FFF;
+		background: $green;
+
+		@include box-shadow(0 7px 0 darken($green, 20%));
+	}
 }
