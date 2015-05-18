@@ -24,7 +24,9 @@ angular.module('confboilerplate.photos.controllers')
 		console.log('There was an error:', error);
 	}
 
-	Photos.fetch().success(handlerRequest).error(errorHandler);
+	Photos.fetch()
+	.success(handlerRequest)
+	.error(errorHandler);
 
 	$scope.paginationPhotos = function() {
 		$ionicLoading.show({
@@ -32,7 +34,9 @@ angular.module('confboilerplate.photos.controllers')
 		});
 
 		if ($scope.next_url !== '') {
-			Photos.fetch($scope.next_url).success(handlerRequest).error(errorHandler);
+			Photos.fetch($scope.next_url)
+			.success(handlerRequest).
+			error(errorHandler);
 		} 
 	};
 })
