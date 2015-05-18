@@ -82,6 +82,16 @@ angular.module('confboilerplate', [
     }
   })
 
+  .state('app.photos_single', {
+    url: '/photos/:photo_id',
+    views: {
+      'menuContent': {
+        templateUrl: 'app/photos/photos-single.html',
+        controller: 'PhotoCtrl'
+      }
+    }
+  })
+
   .state('app.schedule', {
     url: "/schedule",
     views: {
