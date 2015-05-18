@@ -16,7 +16,8 @@ gulp.task('default', ['sass']);
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass({
-      errLogToConsole: true
+      errLogToConsole: true,
+      compass: true
     }))
     .pipe(gulp.dest('./www/assets/css/'))
     .pipe(minifyCss({
