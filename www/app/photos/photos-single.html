@@ -1,0 +1,28 @@
+<ion-view class="photos-view">
+	<ion-nav-title>
+		<span>#FRONTINFORTALEZA</span>
+	</ion-nav-title>
+	<ion-content>
+		<div id="photos-container">
+			<div class="photo single-photo">
+				<img ng-src="{{ photo.images.low_resolution.url }}" class="photo-img" />
+				<div class="photo-body">
+					<div class="user">
+						<img ng-src="{{ photo.user.profile_picture }}" class="user-picture" />
+						<h3 class="username">{{ photo.user.username }}</h3>
+						<h3 class="name">{{ photo.user.full_name }}</h3>
+					</div>
+					<p class="photo-text">{{ photo.caption.text }}</p>
+				</div>
+				<div class="comments" ng-if="photo.comments.count >= 1">
+					<h1 class="comment-title">{{ photo.comments.count }} Comentários</h1>
+					<div class="comment" ng-repeat="comment in photo.comments.data">
+						<img ng-src="{{ comment.from.profile_picture }}" class="comment-img">
+						<span class="comment-username">@{{ comment.from.username }}</span>
+						<p class="comment-text">{{ comment.text }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
